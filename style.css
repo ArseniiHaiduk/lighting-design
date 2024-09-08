@@ -16,8 +16,8 @@ a {
   color: #ffffff;
   padding: 120px 159.6px;
   font-family: "Manrope", sans-serif;
-  /* height: 100%; */
-  /* background-repeat: no-repeat; */
+  height: 100%;
+  background-repeat: no-repeat;
 }
 
 .about-us__intro {
@@ -97,9 +97,8 @@ a {
 
 .about-us__stat-label {
   font-size: 16px;
-  margin: 0;
+  margin: 20px 0 0 0;
   color: #bbb;
-  margin-top: 20px;
 }
 
 .about-us__stat-number span {
