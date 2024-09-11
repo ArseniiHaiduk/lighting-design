@@ -24,7 +24,7 @@ img {
 
 .about-us {
   padding: 90px 24px;
-  background-image: url(./image/about-background.svg);
+  background-image: url(../image/about-background.svg);
   background-size: cover;
   background-position: center;
 }
@@ -76,10 +76,11 @@ img {
   margin-bottom: 50px;
   display: grid;
   gap: 50px;
+  padding: 0 15px;
 }
 
 .about-us__stat {
-  border: 1px solid #363638;
+  border: 2px solid #363638;
   padding: 27px;
 }
 
