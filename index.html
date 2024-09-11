@@ -5,59 +5,160 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us - Prizma Lighting Studio</title>
     <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
   </head>
   <body>
-    <section class="about-us">
-      <div class="container">
-        <div class="about-us__intro">
-          <div class="about-us__intro-text">
-            <p class="about-us__intro-tagline">\ ABOUT US \</p>
-            <h2 class="about-us__intro-title">
-              Illuminate Your Space, Illuminate Your Life With Us
-            </h2>
-            <h3 class="about-us__intro-subtitle">
-              Get a lightning solution that suits your needs.
-            </h3>
+    <header class="header">
+      <section class="header__content">
+        <div class="header__logo">
+          <a class="header__logo-link" href="index.html">
+            <img
+              class="header__logo-img"
+              src="./image/logo-prizma.svg"
+              alt="logo"
+            />
+          </a>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__menu">
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link">About us</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link">Design</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link">Projects</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link">Collections</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link">Contacts</a>
+            </li>
+          </ul>
+          <div class="header__burger">
+            <span class="header__burger-line"></span>
+            <span class="header__burger-line"></span>
+            <span class="header__burger-line"></span>
           </div>
+        </nav>
+      </section>
+      <section class="promo">
+        <div class="promo__intro">
+          <p class="promo__welcome">\ WELCOME TO \</p>
+          <h2 class="promo__title">Prizma Lighting Studio in NY</h2>
+          <!-- <div class="promo__link-container">
+            <a href="#" class="promo__link">Collections</a>
+          </div> -->
+          <button class="promo__link">Collections</button>
+        </div>
 
-          <div class="about-us__content">
-            <h2 class="about-us__content-title">
-              Place the Right Accents with Modern Lights by Prizma Studio
-            </h2>
-            <p class="about-us__content-description">
-              We closely cooperate with our clients to fully understand their
-              needs and goals during the early stages of the project. We provide
-              accurate lighting analysis, detailed specifications, schedules for
-              A/V integration, detailed fixture design, and more.
+        <div class="promo__product">
+          <p class="promo__price">$399</p>
+          <p class="promo__product-name">
+            "The Morning Glory" <br />
+            Ceiling Lamp
+          </p>
+          <svg
+            class="promo__arrow"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 100 100"
+            height="100%"
+          >
+            <polygon
+              points="74,49.668 52.492,28.001 48.098,32.243 62.495,46.638 25.224,46.638 25.224,52.638 62.6,52.638 48.098,67.032 52.492,71.274 74,49.732"
+              fill="currentColor"
+            ></polygon>
+          </svg>
+        </div>
+
+        <div class="promo__info">
+          <div class="promo__description">
+            <p class="promo__text">
+              Enhance your home or office with effective and stylish
+              <span>lighting</span> by Prizma Studio.
             </p>
-            <p class="about-us__content-description">
-              Our true passion is the art of integrating light within
-              architecture. We have completed over 2000 residential projects and
-              built complex lighting system designs nearly in every interior and
-              exterior imaginable.
+            <p class="promo__call-to-action">Send a request now!</p>
+            <div class="promo__icons">
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+          <div class="promo__image-block">
+            <img
+              src="./image/large-lamp.webp"
+              alt="logo-lamp"
+              class="promo__image"
+            />
+            <p class="promo__experience">
+              We have more than 10 years of experience improving our clients’
+              projects with lighting solutions.
             </p>
+            <a href="#" class="promo__read-more">Read more</a>
           </div>
         </div>
-        <div class="about-us__stats">
-          <div class="about-us__stat">
-            <h2 class="about-us__stat-number">15K <span>+</span></h2>
-            <p class="about-us__stat-label">Lamps installed in 2023</p>
+      </section>
+    </header>
+    <main>
+      <section class="about-us">
+        <div class="container">
+          <div class="about-us__intro">
+            <div class="about-us__intro-text">
+              <p class="about-us__intro-tagline">\ ABOUT US \</p>
+              <h2 class="about-us__intro-title">
+                Illuminate Your Space, Illuminate Your Life With Us
+              </h2>
+              <h3 class="about-us__intro-subtitle">
+                Get a lightning solution that suits your needs.
+              </h3>
+            </div>
+
+            <div class="about-us__content">
+              <h2 class="about-us__content-title">
+                Place the Right Accents with Modern Lights by Prizma Studio
+              </h2>
+              <p class="about-us__content-description">
+                We closely cooperate with our clients to fully understand their
+                needs and goals during the early stages of the project. We
+                provide accurate lighting analysis, detailed specifications,
+                schedules for A/V integration, detailed fixture design, and
+                more.
+              </p>
+              <p class="about-us__content-description">
+                Our true passion is the art of integrating light within
+                architecture. We have completed over 2000 residential projects
+                and built complex lighting system designs nearly in every
+                interior and exterior imaginable.
+              </p>
+            </div>
           </div>
-          <div class="about-us__stat">
-            <h2 class="about-us__stat-number">298</h2>
-            <p class="about-us__stat-label">Custom solutions</p>
-          </div>
-          <div class="about-us__stat">
-            <h2 class="about-us__stat-number">2K <span>+</span></h2>
-            <p class="about-us__stat-label">Clients in the USA</p>
-          </div>
-          <div class="about-us__stat about-us__stat-last">
-            <h2 class="about-us__stat-number">599</h2>
-            <p class="about-us__stat-label">Large-scale projects</p>
+          <div class="about-us__stats">
+            <div class="about-us__stat">
+              <h2 class="about-us__stat-number">15K <span>+</span></h2>
+              <p class="about-us__stat-label">Lamps installed in 2023</p>
+            </div>
+            <div class="about-us__stat">
+              <h2 class="about-us__stat-number">298</h2>
+              <p class="about-us__stat-label">Custom solutions</p>
+            </div>
+            <div class="about-us__stat">
+              <h2 class="about-us__stat-number">2K <span>+</span></h2>
+              <p class="about-us__stat-label">Clients in the USA</p>
+            </div>
+            <div class="about-us__stat about-us__stat-last">
+              <h2 class="about-us__stat-number">599</h2>
+              <p class="about-us__stat-label">Large-scale projects</p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
   </body>
 </html>
 
