@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us - Prizma Lighting Studio</title>
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="./css/index.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -52,8 +52,8 @@
           <p class="promo__welcome">\ WELCOME TO \</p>
           <h2 class="promo__title">Prizma Lighting Studio in NY</h2>
           <!-- <div class="promo__link-container">
-            <a href="#" class="promo__link">Collections</a>
-          </div> -->
+              <a href="#" class="promo__link">Collections</a>
+            </div> -->
           <button class="promo__link">Collections</button>
         </div>
 
@@ -75,7 +75,6 @@
             ></polygon>
           </svg>
         </div>
-
         <div class="promo__info">
           <div class="promo__description">
             <p class="promo__text">
@@ -83,12 +82,28 @@
               <span>lighting</span> by Prizma Studio.
             </p>
             <p class="promo__call-to-action">Send a request now!</p>
-            <div class="promo__icons">
-              <i class="fa-brands fa-youtube"></i>
-              <i class="fa-brands fa-facebook-f"></i>
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-twitter"></i>
-            </div>
+            <ul class="promo__icons-list">
+              <li class="promo__icons-item">
+                <a class="promo__icons-link" href="https://www.youtube.com/">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </li>
+              <li class="promo__icons-item">
+                <a class="promo__icons-link" href="https://www.facebook.com/">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="promo__icons-item">
+                <a class="promo__icons-link" href="https://www.instagram.com/">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li class="promo__icons-item">
+                <a class="promo__icons-link" href="https://twitter.com/">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
           </div>
           <div class="promo__image-block">
             <img
@@ -97,10 +112,12 @@
               class="promo__image"
             />
             <p class="promo__experience">
-              We have more than 10 years of experience improving our clients’
-              projects with lighting solutions.
+              We have more than <span>10 years</span> of experience improving
+              our clients’ projects with lighting solutions.
             </p>
-            <a href="#" class="promo__read-more">Read more</a>
+            <div class="promo__container-read-more">
+              <a href="#" class="promo__read-more">READ MORE</a>
+            </div>
           </div>
         </div>
       </section>

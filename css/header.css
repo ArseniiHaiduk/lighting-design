@@ -1,7 +1,8 @@
 .header {
   background-image: url(../image/bg-lamp.png);
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover;
+  background-position: center; */
+  font-family: "Manrope", sans-serif;
 }
 
 .header__logo-img {
@@ -38,6 +39,10 @@
   color: var(--paragraph-text-color);
 }
 
+.promo {
+  padding: 80px 2px 90px 24px;
+}
+
 .promo__welcome {
   color: var(--accent-text-color);
   font-size: 10px;
@@ -46,6 +51,7 @@
 }
 
 .promo__title {
+  margin-top: 20px;
   font-size: 56px;
   color: var(--text-color);
 }
@@ -53,8 +59,10 @@
 .promo__link {
   color: var(--text-color);
   font-size: 13.2px;
+  font-weight: bold;
   padding: 20px 32px;
-  margin: 10px;
+  margin-top: 35px;
+  border: none;
   background-color: var(--accent-text-color);
 }
 
@@ -63,16 +71,24 @@
   font-size: 10px;
   font-weight: 900;
   letter-spacing: 2px;
+  margin-top: 50px;
 }
 
 .promo__product-name {
   font-size: 22px;
+  font-weight: bold;
   color: var(--text-color);
+  margin-top: 20px;
 }
 
 .promo__arrow {
   width: 50px;
   color: var(--accent-text-color);
+  margin-top: 30px;
+}
+
+.promo__info {
+  margin-top: 95px;
 }
 
 .promo__text {
@@ -86,13 +102,58 @@
 
 .promo__call-to-action {
   font-size: 14px;
+  font-weight: bold;
   color: var(--accent-text-color);
+  margin-top: 20px;
 }
 
-.promo__icons {
-  color: var(--accent-text-color);
+.promo__icons-list {
+  color: var(---light-accent-text-color);
+  display: flex;
+  margin-top: 30px;
+  gap: 15px;
+}
+
+.promo__icons-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+
+.promo__image-block {
+  margin-top: 60px;
 }
 
 .promo__image {
   width: 138px;
+}
+
+.promo__experience {
+  font-size: 14px;
+  color: var(--paragraph-text-color);
+  margin-top: 20px;
+}
+
+.promo__experience span {
+  color: var(---light-accent-text-color);
+}
+
+.promo__container-read-more {
+  color: var(--text-color);
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .promo {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }

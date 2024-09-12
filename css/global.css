@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Manrope", sans-serif;
 }
 
 :root {
@@ -15,6 +14,7 @@
   --text-color: #fff;
   --medium-text-color: #e1e1e1;
   --paragraph-text-color: #bbb;
+  ---light-accent-text-color: #f1d1af;
 }
 
 img {
