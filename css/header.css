@@ -1,7 +1,7 @@
 .header {
   background-image: url(../image/bg-lamp.png);
-  /* background-size: cover;
-  background-position: center; */
+  background-size: cover;
+  background-position: center;
   font-family: "Manrope", sans-serif;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .promo {
-  padding: 80px 2px 90px 24px;
+  padding: 80px 24px 90px 24px;
 }
 
 .promo__welcome {
@@ -87,7 +87,7 @@
   margin-top: 30px;
 }
 
-.promo__info {
+.promo__description {
   margin-top: 95px;
 }
 
@@ -150,10 +150,120 @@
 }
 
 @media (min-width: 768px) {
+  .header__content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 32px;
+  }
+
   .promo {
     max-width: 1200px;
     margin: auto;
+    padding: 80px 32px;
+  }
+
+  .promo__upper-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .promo__title {
+    font-size: 66px;
+  }
+
+  .promo__product {
+    text-align: end;
+  }
+
+  .promo__product-name {
+    font-size: 24px;
+  }
+
+  .promo__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 130px;
+  }
+
+  .promo__description {
+    width: 33.3%;
+  }
+
+  .promo__image-block {
+    width: 25%;
+  }
+
+  .promo__image-block {
+    text-align: end;
+  }
+
+  .promo__image-container {
+    display: flex;
+    justify-content: end;
+  }
+
+  .promo__image {
+    width: 35%;
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .header__content {
+    padding: 30px 40px;
+  }
+
+  .header__menu {
+    display: flex;
+    gap: 25px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .header__menu-link {
+    text-decoration: underline;
+  }
+
+  .header__burger {
+    display: none;
+  }
+
+  .promo {
+    padding: 80px 40px;
+  }
+
+  .promo__upper-content {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .promo__title {
+    font-size: 76px;
+  }
+
+  .promo__price {
+    margin: 0;
+  }
+
+  .promo__product-name {
+    font-size: 26px;
+  }
+
+  .promo__call-to-action {
+    font-size: 15px;
+  }
+
+  .promo__experience {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__content {
+    padding: 30px 15px;
+  }
+
+  .promo {
+    padding: 80px 15px;
   }
 }

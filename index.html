@@ -25,7 +25,7 @@
         <nav class="header__nav">
           <ul class="header__menu">
             <li class="header__menu-item">
-              <a href="#" class="header__menu-link">About us</a>
+              <a href="#about-us" class="header__menu-link">About us</a>
             </li>
             <li class="header__menu-item">
               <a href="#" class="header__menu-link">Design</a>
@@ -48,32 +48,33 @@
         </nav>
       </section>
       <section class="promo">
-        <div class="promo__intro">
-          <p class="promo__welcome">\ WELCOME TO \</p>
-          <h2 class="promo__title">Prizma Lighting Studio in NY</h2>
-          <!-- <div class="promo__link-container">
+        <div class="promo__upper-content">
+          <div class="promo__intro">
+            <p class="promo__welcome">\ WELCOME TO \</p>
+            <h2 class="promo__title">Prizma Lighting Studio in NY</h2>
+            <!-- <div class="promo__link-container">
               <a href="#" class="promo__link">Collections</a>
             </div> -->
-          <button class="promo__link">Collections</button>
-        </div>
+            <button class="promo__link">Collections</button>
+          </div>
 
-        <div class="promo__product">
-          <p class="promo__price">$399</p>
-          <p class="promo__product-name">
-            "The Morning Glory" <br />
-            Ceiling Lamp
-          </p>
-          <svg
-            class="promo__arrow"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 100"
-            height="100%"
-          >
-            <polygon
-              points="74,49.668 52.492,28.001 48.098,32.243 62.495,46.638 25.224,46.638 25.224,52.638 62.6,52.638 48.098,67.032 52.492,71.274 74,49.732"
-              fill="currentColor"
-            ></polygon>
-          </svg>
+          <div class="promo__product">
+            <p class="promo__price">$399</p>
+            <p class="promo__product-name">
+              "The Morning Glory" <br />
+              Ceiling Lamp
+            </p>
+            <svg
+              class="promo__arrow"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 100 100"
+            >
+              <polygon
+                points="74,49.668 52.492,28.001 48.098,32.243 62.495,46.638 25.224,46.638 25.224,52.638 62.6,52.638 48.098,67.032 52.492,71.274 74,49.732"
+                fill="currentColor"
+              ></polygon>
+            </svg>
+          </div>
         </div>
         <div class="promo__info">
           <div class="promo__description">
@@ -106,11 +107,13 @@
             </ul>
           </div>
           <div class="promo__image-block">
-            <img
-              src="./image/large-lamp.webp"
-              alt="logo-lamp"
-              class="promo__image"
-            />
+            <div class="promo__image-container">
+              <img
+                src="./image/large-lamp.webp"
+                alt="logo-lamp"
+                class="promo__image"
+              />
+            </div>
             <p class="promo__experience">
               We have more than <span>10 years</span> of experience improving
               our clients’ projects with lighting solutions.
@@ -123,7 +126,7 @@
       </section>
     </header>
     <main>
-      <section class="about-us">
+      <section id="about-us" class="about-us">
         <div class="container">
           <div class="about-us__intro">
             <div class="about-us__intro-text">
