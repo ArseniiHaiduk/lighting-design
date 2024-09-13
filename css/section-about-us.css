@@ -6,6 +6,11 @@
   background-position: center;
 }
 
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
 .about-us__intro-text {
   padding: 0 15px;
 }
@@ -82,10 +87,10 @@
 }
 
 @media (min-width: 768px) {
-  .container {
+  /* .container {
     max-width: 1200px;
     margin: auto;
-  }
+  } */
 
   .about-us__intro {
     display: grid;
