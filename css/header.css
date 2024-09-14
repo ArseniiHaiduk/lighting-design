@@ -1,5 +1,5 @@
 .header {
-  background-image: url(../image/bg-lamp.png);
+  background-image: url(../image/header/bg-lamp.png);
   background-size: cover;
   background-position: center;
 }
@@ -56,6 +56,7 @@
 }
 
 .promo__link {
+  display: inline-block;
   color: var(--text-color);
   font-size: 13.2px;
   font-weight: bold;
