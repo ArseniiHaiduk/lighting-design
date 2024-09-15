@@ -2,7 +2,7 @@
   background-image: url(../image/section-about-us/about-background.svg);
   background-size: cover;
   background-position: center;
-  padding: 90px 24px;
+  padding: 90px 9px;
 }
 
 .about-us__container {
@@ -122,5 +122,11 @@
 
   .about-us__content-title {
     font-size: 36px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-us {
+    padding: 120px 25px;
   }
 }
