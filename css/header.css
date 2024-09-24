@@ -38,6 +38,10 @@
   color: var(--paragraph-text-color);
 }
 
+.header__menu-link:hover {
+  color: var(--accent-text-color);
+}
+
 .promo {
   padding: 80px 24px 90px 24px;
 }
@@ -64,6 +68,12 @@
   margin-top: 35px;
   border: none;
   background-color: var(--accent-text-color);
+  transition: all 0.5s ease;
+}
+
+.promo__link:hover {
+  color: var(--hover-button-color);
+  background-color: var(--hover-button-background-color);
 }
 
 .promo__price {
